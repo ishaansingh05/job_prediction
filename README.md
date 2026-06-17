@@ -43,6 +43,23 @@ Upload your resume. Get ranked, real, currently-open jobs. Understand exactly wh
 -  **Smart Filters** — Location, employment type, remote-only toggle
 -  **Export Results** — Download all matches as CSV
 -  **Zero Setup for Users** — Just paste API keys and go, no backend config needed
+-  **Fully Flexible Search**— Customize job title, location (any city/country worldwide), employment type, and remote-only toggle, all resolved dynamically
+                              against live data with no hardcoded constraints
+
+
+ ## 🎛️ Search Flexibility
+
+The app isn't limited to a fixed dataset or rigid search logic — every search is dynamic and fully configurable at runtime:
+
+- **Any job title or role** — type any keyword manually, or let the app auto-extract relevant terms from your resume if you leave it blank
+- **Any location worldwide** — type any city, state, or country (e.g. `Mumbai`, `Remote`, `Germany`, `New York`); the app automatically maps it to the correct Adzuna country endpoint
+- **Remote-only toggle** — filters results to only show jobs explicitly marked or described as remote
+- **Employment type** — switch between Full-time, Part-time, Contract, or Internship with a single dropdown
+- **Adjustable result depth** — control how many top matches FAISS retrieves (5 to 30) using the slider, balancing speed vs. coverage
+- **Resume-optional mode** — even without uploading a resume, you can search jobs purely by keyword and location; FAISS ranking and AI insights simply activate once a resume is provided
+
+ This flexibility comes from the fact that nothing is hardcoded — the entire pipeline (query, filters, embeddings, FAISS index) is rebuilt fresh for every single  search request, using whatever live data Adzuna returns at that moment.
+ 
   ---
   
 ## 🏗️ Architecture
