@@ -145,12 +145,14 @@ The app will launch on `http://localhost:7860`
 ---
 
 ## 📂 Project Structure
+```text
 ai-career-copilot/
 │
 ├── jobs_app.py              
 ├── requirements.txt    
 ├── README.md            
 └── .gitignore
+```
 ---
 
 ## 📋 Requirements
