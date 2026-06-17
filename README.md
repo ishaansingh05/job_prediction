@@ -43,9 +43,9 @@ Upload your resume. Get ranked, real, currently-open jobs. Understand exactly wh
 -  **Smart Filters** — Location, employment type, remote-only toggle
 -  **Export Results** — Download all matches as CSV
 -  **Zero Setup for Users** — Just paste API keys and go, no backend config needed
+-  **Direct Apply Links** — Every job result includes a direct link to apply on the original posting, so you can act on matches immediately
 -  **Fully Flexible Search**— Customize job title, location (any city/country worldwide), employment type, and remote-only toggle, all resolved dynamically
                               against live data with no hardcoded constraints
-
 
  ## 🎛️ Search Flexibility
 
